@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "live"]
+	url = ssh://deploy@198.199.66.76/var/repo/site.git
+	fetch = +refs/heads/*:refs/remotes/live/*
