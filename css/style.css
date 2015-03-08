@@ -309,6 +309,7 @@ h2.section-title {
     text-align: center;
     max-width: 550px;
     margin: auto auto 80px auto;
+    margin-bottom:30px;
 }
 .fixed {
     background-attachment: fixed;
@@ -1099,6 +1100,8 @@ section#home-content {
     padding: 0;
     position: relative;
     z-index: 99;
+        background-color: white;
+
 }
 #main-heading {
     padding: 0;
