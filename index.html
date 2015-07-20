@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="css/owl.carousel.css" media="all">
         <link rel="stylesheet" href="css/magnific-popup.css" media="all">
         <link rel="stylesheet" href="css/font-awesome.min.css" media="all">
+        
         <link rel="stylesheet" href="css/animate.min.css" media="all">
         <link rel="stylesheet" href="css/style.css" media="all">
         <link rel="stylesheet" href="css/color.css" media="all">
@@ -55,7 +56,7 @@
             <div class="container">
                 <div class="hero-inner">
                     <h1 class="big_white">Letters
-                    <span class="element curved" data-elements="From Lana"></span>
+                    <span style="font-size:1.5em" class="element curved" data-elements="From Lana"></span>
                     </h1>
                     <div class="hero-copy">Let's bring back the handwritten card.</div>
                     <span class="btn-holder"><a href="#portfolio" class="hero-btn lm-button">Visit card gallery</a>
@@ -103,15 +104,20 @@
 <section id="about-us" class="menu-in">
     <header class="section-header">
     <h2 class="section-title" data-anim-delay="400">About Letters From Lana</h2>
+
     <p class="section-tagline">Letters from Lana originated from the simple desire to show people they are loved through a hand-crafted card.</br></br>
     Each card is inspired by a friend or family member.
     A portion of proceeds from each card will be donated to an organization related
     to the card’s materials or chosen by the card’s muse.</br></br>
     Follow me as I design one card a day for a year! </br>
+
     <a href="https://lettersfromlana.wordpress.com/tag/1-card-a-day/" target="_blank"> View designs on my blog (opens new page).</a> </br></br>
     * A portion of proceeds from each "one card a day" sale will be donated to </br>
     <a href="http://www.globalgiving.org/projects/talia-agler-girls-shelter/" target="_blank"> Talia Agler Girl's Shelter.</a>
+
     </br>
+                        <div id="instafeed"></div>
+
     </header>
     <!-- / About Us Ends -->
     <!-- Quote -->
@@ -134,7 +140,7 @@
     <div class="column six border">
         <div class="main">
             <i class="pe-7s-note"></i>
-            <h2>Custom Cards</h2>
+            <h2 class="">Custom Cards</h2>
         </div>
         <span class="desc">Don't see what you need? I can work with you to make the perfect card for any occasion. Please contact me for next steps and a price quote.
              </br></br>
@@ -1402,6 +1408,20 @@ autoHeight: true
 <script src="js/retina.min.js"></script>
 <script src="js/jquery.soc-share.js"></script>
 <script src="js/custom.js"></script>
+<script type="text/javascript" src="js/instafeed.min.js"></script>
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'dailycarddesign',
+        clientId: '39bba801de164a58af16a6248e3d8f2a',
+        limit:8,
+        resolution: 'low_resolution'
+    });
+    feed.run();
+</script>
+
+
+
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

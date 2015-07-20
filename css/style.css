@@ -319,7 +319,7 @@ h2.section-title {
 }
 .typed-cursor {
 	
-	font-family:GreatVibes;
+	font-family:Lana;
     font-weight: normal;
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -947,12 +947,20 @@ header nav ul li ul li a {
   font-family: 'GreatVibes';
   src: url('../fonts/GreatVibes-Regular.otf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
-
-.curved {
-    font-family: 'GreatVibes';
-	text-transform: none;
+@font-face {
+    font-family:"Lana";
+    src: url("../fonts/Lana_Font_thin.ttf") /* TTF file for CSS3 browsers */
 }
 
+.lana {
+    font-family: 'Lana';
+    text-transform: none;
+}
+
+.curved {
+    font-family: 'Lana';
+	text-transform: none;
+}
 
 .mb_YTVPlayer:focus {
     outline: 0;
