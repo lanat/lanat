@@ -1,0 +1,5 @@
+cd /Users/Lana/lettersfromlana 
+git diff
+git add .
+git commit -a -m "the name of the update"
+git push 
